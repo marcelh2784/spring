@@ -4,7 +4,10 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/* gebruik als jdbc url: jdbc:h2:mem:testdb */
+/*TODO
+URL h2-console -> localhost:8080/h2-console
+Enable h2-console -> set spring.h2.console.enabled=true in application.properties
+Use as JDBC url: jdbc:h2:mem:testdb */
 @Entity
 public class Book {
 
