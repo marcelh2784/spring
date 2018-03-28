@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+//TODO Spring Stereotypes: @Component, @Controller, @Service, @Repository, @RestController
 @Controller
 public class AuthorController {
 
